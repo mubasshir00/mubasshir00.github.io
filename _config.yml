@@ -28,13 +28,13 @@ author:
   location         : "Dhaka, Bangladesh"
   # employer         : "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "mubasshirahmed66@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=5fyMOVoAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-7502-3835"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -44,9 +44,9 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "mubasshir00"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : "https://stackoverflow.com/users/8407666/mubasshir00"    
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/mubasshir-ahmed-696378137/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
