@@ -516,15 +516,15 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
-.#{$fa-css-prefix}.#{$fa-css-prefix}-gitlab {
+.#{$fa-css-prefix}.#{$fa-css-prefix}-bitbucket {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
-.#{$fa-css-prefix}.#{$fa-css-prefix}-gitlab-square {
+.#{$fa-css-prefix}.#{$fa-css-prefix}-bitbucket-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
-.#{$fa-css-prefix}.#{$fa-css-prefix}-gitlab-square:before { content: unquote("\"#{ $fa-var-gitlab }\""); }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-bitbucket-square:before { content: unquote("\"#{ $fa-var-bitbucket }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-tumblr {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
