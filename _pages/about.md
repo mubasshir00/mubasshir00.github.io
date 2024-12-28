@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Assistant at the Institute for Advanced Research (IAR) Lab, United International University, and a Software Engineer at Engineering Resources International (ERI) Ltd. My research interests span Cyber Security, Data Security and Privacy, Wireless Security, Modern Cryptography, Programming Languages, Software Engineering, Database Systems, and Software and Computer Architecture. With extensive experience in software engineering, I specialize in designing and developing scalable, secure backend systems and innovative software solutions. I am dedicated to exploring innovative solutions to enhance data protection, secure communication systems, and optimize software frameworks, contributing to advancements in both academic research and practical applications.
+<p>I am a Research Assistant at the Institute for Advanced Research (IAR) Lab, United International University, and a Software Engineer at Engineering Resources International (ERI) Ltd. My research interests span Cyber Security, Data Security and Privacy, Wireless Security, Modern Cryptography, Programming Languages, Software Engineering, Database Systems, and Software and Computer Architecture. With extensive experience in software engineering, I specialize in designing and developing scalable, secure backend systems and innovative software solutions. I am dedicated to exploring innovative solutions to enhance data protection, secure communication systems, and optimize software frameworks, contributing to advancements in both academic research and practical applications.</p>
 
 
 News:
