@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Mubasshir Ahmed"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Software Engineer | Researcher"
+  location         : "Dhaka, Bangladesh"
+  # employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 
