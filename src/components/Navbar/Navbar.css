@@ -1,0 +1,17 @@
+.navbar {
+    background-color : #3a3a3a;
+    border-bottom : 1px solid #777;
+    padding: 12px 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+.navbar-container {
+    /* max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+}
