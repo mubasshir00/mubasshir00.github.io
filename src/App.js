@@ -1,15 +1,11 @@
-import HomeContent from './components/Navbar/HomeContent';
 import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Navbar/Sidebar';
+import MainContainer from './components/Navbar/MainContainer';
 
 function App() {
   return (
     <>
     <Navbar/>
-    <div className='main-container'>
-      <Sidebar/>
-      <HomeContent/>
-    </div>
+    <MainContainer/>
     </>
   );
 }

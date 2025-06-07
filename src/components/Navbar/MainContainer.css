@@ -1,0 +1,12 @@
+.main-bar{
+    background-color: #3a3a3a;
+	padding: 12px 20px;
+	font-family: sans-serif;
+	color: #fff;
+}
+.main-container {
+    max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction:row;
+}

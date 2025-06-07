@@ -1,13 +1,14 @@
 /** @format */
 
 import React from "react";
+import './Sidebar.css'
 
 const Sidebar = () => {
 	return (
 		<aside className='sidebar'>
 			<img
 				className='avatar'
-				src='https://via.placeholder.com/150'
+				src='/Mubasshir.jpg'
 				alt='Mubasshir Ahmed'
 			/>
 			<h3>Mubasshir Ahmed</h3>
