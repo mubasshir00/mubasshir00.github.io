@@ -1,0 +1,84 @@
+
+.main-bar {
+	background-color: #3a3a3a;
+	padding: 12px 20px;
+	font-family: sans-serif;
+	color: #fff;
+}
+.main-container {
+    max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction:row;
+}
+
+/* Mobile & tablet responsive */
+@media (max-width: 768px) {
+	.main-container {
+		flex-direction: column;
+		align-items: center; /* optional, centers content */
+	}
+
+	.sidebar,
+	.home-content {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+.experience {
+	flex: 1;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+.experience h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+    color: #f5f5f5;
+}
+
+.experience-entry {
+	margin-bottom: 2rem;
+}
+
+.experience-entry h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.25rem;
+	
+}
+
+.company {
+	font-size: 0.95rem;
+	margin-bottom: 0.5rem;
+}
+
+.experience-entry ul {
+	list-style-type: disc;
+	padding-left: 1.2rem;
+	margin: 0.5rem 0 0 0;
+}
+
+.experience-entry li {
+	margin-bottom: 0.4rem;
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.experience {
+		padding: 0 1rem;
+	}
+
+	.experience-entry h3 {
+		font-size: 1.1rem;
+	}
+
+	.experience-entry li {
+		font-size: 0.9rem;
+	}
+}

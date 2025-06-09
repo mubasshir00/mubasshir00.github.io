@@ -1,11 +1,16 @@
-import React, { useState } from 'react'
-import "./Navbar.css"
+/** @format */
+
+import React, { useState } from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
-const [isOpen, setIsOpen] = useState(false)
-  return (
+	const [isOpen, setIsOpen] = useState(false);
+	return (
 		<nav className='navbar'>
 			<div className='navbar-container'>
-				<div className='navbar-logo'>Mubasshir Ahmed</div>
+				<Link className='navbar-logo' to='/'>
+					Mubasshir Ahmed
+				</Link>
 
 				<div className='navbar-toggle' onClick={() => setIsOpen(!isOpen)}>
 					☰
@@ -13,30 +18,45 @@ const [isOpen, setIsOpen] = useState(false)
 
 				<ul className={`navbar-links ${isOpen ? "active" : ""}`}>
 					<li>
-						<a href='#experience'>Experience</a>
+						{/* <a href='#experience'>Experience</a> */}
+						<Link className='navbar-logo' to='/experience'>
+							Experience
+						</Link>
 					</li>
 					<li>
-						<a href='#publications'>Publications</a>
+						<Link className='navbar-logo' to='/publications'>
+							Publications
+						</Link>
 					</li>
 					<li>
-						<a href='#projects'>Projects</a>
+						<Link className='navbar-logo' to='/projects'>
+							Projects
+						</Link>
 					</li>
 					<li>
-						<a href='#skills'>Skills</a>
+						<Link className='navbar-logo' to='/skills'>
+							Skills
+						</Link>
 					</li>
 					<li>
-						<a href='#awards'>Awards</a>
+						<Link className='navbar-logo' to='/awards'>
+							Awards
+						</Link>
 					</li>
 					<li>
-						<a href='#cv'>CV</a>
+						<Link className='navbar-logo' to='/cv'>
+							CV
+						</Link>
 					</li>
 					<li>
-						<a href='#contact'>Contact</a>
+						<Link className='navbar-logo' to='/contact'>
+							Contact
+						</Link>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	);
-}
+};
 
-export default Navbar
+export default Navbar;

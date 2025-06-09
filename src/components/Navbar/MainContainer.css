@@ -10,3 +10,17 @@
 	display: flex;
 	flex-direction:row;
 }
+
+/* Mobile & tablet responsive */
+@media (max-width: 768px) {
+	.main-container {
+	  flex-direction: column;
+	  align-items: center; /* optional, centers content */
+	}
+  
+	.sidebar,
+	.home-content {
+	  width: 100%;
+	  max-width: 100%;
+	}
+  }
