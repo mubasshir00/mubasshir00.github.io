@@ -1,0 +1,43 @@
+.contact-only {
+    max-width: 700px;
+    margin: auto;
+    padding: 3rem 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f2f2f2;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .contact-only h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-only p {
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-details {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contact-details li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .contact-details a {
+    color: #4da6ff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  

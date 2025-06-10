@@ -4,7 +4,7 @@ import './Experience.css'
 const Experience = () => {
   return (
 		<div className='experience'>
-			<h2>Experience</h2>
+			<h2>EXPERIENCE</h2>
 			{experiences.map((exp, idx) => (
 				<div key={idx} className='experience-entry'>
 					<h3>{exp.role}</h3>
