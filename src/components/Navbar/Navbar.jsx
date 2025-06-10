@@ -19,37 +19,58 @@ const Navbar = () => {
 				<ul className={`navbar-links ${isOpen ? "active" : ""}`}>
 					<li>
 						{/* <a href='#experience'>Experience</a> */}
-						<Link className='navbar-logo' to='/experience'>
+						<Link
+							className='navbar-logo'
+							to='/experience'
+							onClick={() => setIsOpen(false)}>
 							Experience
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/publications'>
+						<Link
+							className='navbar-logo'
+							to='/publications'
+							onClick={() => setIsOpen(false)}>
 							Publications
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/projects'>
+						<Link
+							className='navbar-logo'
+							to='/projects'
+							onClick={() => setIsOpen(false)}>
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/skills'>
+						<Link
+							className='navbar-logo'
+							to='/skills'
+							onClick={() => setIsOpen(false)}>
 							Skills
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/awards'>
+						<Link
+							className='navbar-logo'
+							to='/awards'
+							onClick={() => setIsOpen(false)}>
 							Awards
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/cv'>
+						<Link
+							className='navbar-logo'
+							to='/cv'
+							onClick={() => setIsOpen(false)}>
 							CV
 						</Link>
 					</li>
 					<li>
-						<Link className='navbar-logo' to='/contact'>
+						<Link
+							className='navbar-logo'
+							to='/contact'
+							onClick={() => setIsOpen(false)}>
 							Contact
 						</Link>
 					</li>

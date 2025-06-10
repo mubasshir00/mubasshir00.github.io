@@ -28,7 +28,7 @@
 .navbar-logo:hover {
 	color: #90caf9;
 	text-decoration: underline;
-  }
+}
 
 .navbar-toggle {
 	display: none;
@@ -42,7 +42,15 @@
 	gap: 24px;
 	margin: 0;
 	padding: 0;
+
+	
+	transition: max-height 0.4s ease, opacity 0.3s ease;
 }
+
+.navbar-links.active {
+	max-height: 1000px; /* Large enough to fit all links */
+	opacity: 1;
+  }
 
 .navbar-links li a,
 .navbar-links li {
