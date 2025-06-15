@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import MainContainer from './components/Navbar/MainContainer';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import CVs from './components/CV/CVs';
 import Contact from './components/Contacts/Contact';
 import ExperienceContainer from './components/Experience/ExperienceContainer';
@@ -25,6 +25,8 @@ function App() {
 				<Route path='/cv' element={<CvsContainer />} />
 				{/* <Route path='/moments' element={<Gallery />} /> */}
 				<Route path='/contact' element={<Contact />} />
+
+				<Route path='*' element={<Navigate to='/' replace />} />
 			</Routes>
 		</Router>
 	);
