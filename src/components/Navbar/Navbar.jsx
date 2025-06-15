@@ -69,6 +69,14 @@ const Navbar = () => {
 					<li>
 						<Link
 							className='navbar-logo'
+							to='/moments'
+							onClick={() => setIsOpen(false)}>
+							Moments
+						</Link>
+					</li>
+					<li>
+						<Link
+							className='navbar-logo'
 							to='/contact'
 							onClick={() => setIsOpen(false)}>
 							Contact

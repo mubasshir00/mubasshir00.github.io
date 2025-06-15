@@ -9,6 +9,7 @@ import ProjectContainer from './components/Project/ProjectContainer';
 import SkillsContainer from './components/Skills/SkillsContainer';
 import AwardsContainer from './components/Awards/AwardsContainer';
 import CvsContainer from './components/CV/CvsContainer';
+import Gallery from './components/Moments/Moments';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 				<Route path='/skills' element={<SkillsContainer />} />
 				<Route path='/awards' element={<AwardsContainer />} />
 				<Route path='/cv' element={<CvsContainer />} />
+				{/* <Route path='/moments' element={<Gallery />} /> */}
 				<Route path='/contact' element={<Contact />} />
 			</Routes>
 		</Router>

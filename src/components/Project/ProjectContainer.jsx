@@ -9,7 +9,7 @@ const ProjectContainer = () => {
 	return (
 		<div className='main-bar'>
 			<div className='main-container'>
-                <Sidebar/>
+                {/* <Sidebar/> */}
                 <Projects/>
             </div>
 		</div>

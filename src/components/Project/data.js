@@ -2,33 +2,76 @@
 
 export const projectData = [
 	{
-		title: "VR Moonquake (NASA Space Apps 2022)",
+		title: "Resources Tracking Information System (RTIS)",
 		description:
-			"A VR experience that visualizes Apollo moonquake data using NASA APIs. Users can explore lunar seismic activity from 1971–1976 in an immersive environment.",
-		tech: ["WebXR", "NASA API", "Three.js", "Unity"],
+			"A large-scale resource management platform used by 90+ factories across Asia, Europe, and the US. I led the backend team to design scalable APIs, optimize performance, and ensure multi-tenant support.",
+		tech: ["Node.js", "NestJS", "PostgreSQL", "MongoDB", "Docker", "AWS"],
+		links: { live: "https://rtis.cloud" },
+	},
+	{
+		title: "Employee Management System",
+		description:
+			"Led a subteam to build a complete employee management system from scratch, including modules for onboarding, attendance, and reporting, all delivered with modular and maintainable code.",
+		tech: ["React", "Node.js", "MongoDB", "Express"],
+
 		links: {
-			demo: "#",
-			github: "#",
+			live: "https://timely-hr.com",
 		},
 	},
 	{
 		title: "Gaming Hub (Streaming MVP)",
 		description:
-			"A scalable game streaming platform MVP with WebRTC-based real-time broadcasting, live chat, and session management.",
-		tech: ["React", "Node.js", "WebRTC", "MongoDB"],
+			"Built a game streaming MVP using WebRTC and Ethereum smart contracts. Focused on real-time broadcasting, latency optimization, and a CI/CD-powered modular architecture.",
+		tech: ["WebRTC", "Ethereum", "React", "MongoDB"],
+	},
+	{
+		title: "Hive Live",
+		description:
+			"Developed backend APIs and feature updates for two video streaming apps. Also wrote unit and integration tests and built an admin dashboard to support operations.",
+		tech: ["Node.js", "Express.js", "React", "MongoDB"],
 		links: {
-			demo: "#",
-			github: "#",
+			live: "https://play.google.com/store/apps/details?id=com.live.hives",
 		},
 	},
 	{
-		title: "Employee Management System",
+		title: "Poco Live",
 		description:
-			"Built a full-featured employee management system with authentication, attendance, and reporting tools.",
-		tech: ["React", "Express", "PostgreSQL", "Docker"],
+			"Developed backend APIs and feature updates for two video streaming apps. Also wrote unit and integration tests and built an admin dashboard to support operations.",
+		tech: ["Node.js", "Express.js", "React", "MongoDB", "MySQL"],
 		links: {
-			demo: "#",
-			github: "#",
+			live: "https://play.google.com/store/apps/details?id=com.live.poco",
+		},
+	},
+	{
+		title: "Hospital ERP System",
+		description:
+			"Worked as a full-stack developer to build ERP interfaces for hospitals. Developed frontend features using React and resolved backend issues to improve system stability.",
+		tech: ["ReactJS", "Node.js", "MongoDB", "MySQL"],
+	},
+
+	{
+		title: "BANGLA PLAGIARISM CHECKER",
+		description:
+			"This is my capstone Project Report on “BanglaPlagiarism Checker using Machine Learning” as a part of our BSc program.",
+		tech: [
+			"ReactJS",
+			"Node.js",
+			"MongoDB",
+			"NLP",
+			"Tensorflow",
+			"Matplotlib",
+			"Numpy",
+			"Python",
+			"NLTK",
+			"Beautiful Aoup",
+			"NodeJS",
+			"React",
+			"MySQL",
+			"CoLab",
+		],
+		links: {
+			details:
+				"https://www.researchgate.net/publication/387401324_BANGLA_PLAGIARISM_CHECKER",
 		},
 	},
 ];
