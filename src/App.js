@@ -1,6 +1,11 @@
 import Navbar from './components/Navbar/Navbar';
 import MainContainer from './components/Navbar/MainContainer';
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+	HashRouter as Router,
+	Routes,
+	Route,
+	Navigate,
+} from "react-router-dom";
 import CVs from './components/CV/CVs';
 import Contact from './components/Contacts/Contact';
 import ExperienceContainer from './components/Experience/ExperienceContainer';
