@@ -63,7 +63,7 @@ export const projectData = [
 			"Numpy",
 			"Python",
 			"NLTK",
-			"Beautiful Aoup",
+			"Beautiful Soup",
 			"NodeJS",
 			"React",
 			"MySQL",
