@@ -66,14 +66,14 @@ const Navbar = () => {
 							CV
 						</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link
 							className='navbar-logo'
 							to='/moments'
 							onClick={() => setIsOpen(false)}>
 							Moments
 						</Link>
-					</li>
+					</li> */}
 					<li>
 						<Link
 							className='navbar-logo'
