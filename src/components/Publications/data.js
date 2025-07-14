@@ -11,6 +11,7 @@ export const conference = [
 		month_year: "Nov 2024",
 		citation:
 			"Mazharul Islam, Mubasshir Ahmed, Shakib Hossain, Niaz Ashraf Khan, A Blockchain-based Medical Record Storage System for Healthcare Data Management, Accepted in International Conference on Advances in Communication Technology and Computer Engineering Nov 2024.",
+		paperLink: "https://doi.org/10.1007/978-3-031-94620-2_24",
 	},
 	{
 		title:
