@@ -1,6 +1,13 @@
 /** @format */
 
-export const journals = [];
+export const journals = [
+	{
+		publisher: "Engineering Reports, Wiley, 2025",
+		month_year: "2025",
+		title:
+			"Fraud Detection in Privacy Preserving Health Insurance System using Blockchain Technology",
+	},
+];
 
 export const conference = [
 	{

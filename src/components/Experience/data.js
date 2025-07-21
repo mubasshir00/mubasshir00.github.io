@@ -3,16 +3,6 @@
 
 export const experiences = [
 	{
-		role: "Software Engineer",
-		company: "Engineering Resources International (ERI) Ltd, Dhaka",
-		duration: "Feb 2023 – Present",
-		description: [
-			"Led the backend development team for the Resources Tracking Information System (RTIS) — a large-scale enterprise platform adopted by 90+ factories and multiple international clothing brands across Bangladesh, Pakistan, India, Denmark, the USA, Ireland, and China.",
-			"Designed and maintained scalable backend infrastructure to manage factory data, resource allocation, real-time reporting, and integrations with third-party systems. Collaborated closely with frontend developers, QA engineers, and business stakeholders to ensure robust feature delivery aligned with user needs. Oversaw technical architecture, database optimization, API design, and deployment workflows to support high-volume operations and cross-border usage.",
-			"Led a dedicated subteam of developers to build the Employee Management System from the ground up. Oversaw the full development lifecycle — from requirement gathering and system design to implementation and deployment — ensuring all features were delivered on time and within scope.",
-		],
-	},
-	{
 		role: "Research Assistant",
 		company:
 			"Institute for Advanced Research (IAR) Lab, United International University",
@@ -21,6 +11,16 @@ export const experiences = [
 			"Conduct research and develop methods for preserving patient anonymity using advanced cryptographic techniques within a blockchain framework.",
 			"Implement and integrate InterPlanetary File System (IPFS) for decentralized and secure storage of patient data, ensuring data integrity and accessibility.",
 			"Perform rigorous testing and validation of the blockchain-based system to ensure the effectiveness of privacy-preserving measures and fraud detection mechanisms.",
+		],
+	},
+	{
+		role: "Software Engineer",
+		company: "Engineering Resources International (ERI) Ltd, Dhaka",
+		duration: "Feb 2023 – Present",
+		description: [
+			"Led the backend development team for the Resources Tracking Information System (RTIS) — a large-scale enterprise platform adopted by 90+ factories and multiple international clothing brands across Bangladesh, Pakistan, India, Denmark, the USA, Ireland, and China.",
+			"Designed and maintained scalable backend infrastructure to manage factory data, resource allocation, real-time reporting, and integrations with third-party systems. Collaborated closely with frontend developers, QA engineers, and business stakeholders to ensure robust feature delivery aligned with user needs. Oversaw technical architecture, database optimization, API design, and deployment workflows to support high-volume operations and cross-border usage.",
+			"Led a dedicated subteam of developers to build the Employee Management System from the ground up. Oversaw the full development lifecycle — from requirement gathering and system design to implementation and deployment — ensuring all features were delivered on time and within scope.",
 		],
 	},
 	{

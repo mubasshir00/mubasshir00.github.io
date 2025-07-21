@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Publications.css"; 
-import { bookChapter, conference } from "./data";
+import { bookChapter, conference , journals } from "./data";
 
 const Publications = () => {
   return (
@@ -16,6 +16,25 @@ const Publications = () => {
 				</a>
 				.
 			</p>
+
+<h3>Journal Articles</h3>
+			<hr />
+
+			{journals.map((pub, i) => (
+				<div key={i} className='pub-entry'>
+					<h4>
+						<a href={pub.paperLink ? pub.paperLink : ""}>{pub.title}</a>
+					</h4>
+					<p>
+						Published in <em>{pub.publisher}</em>, {pub.year}
+					</p>
+					<p>{pub.abstract}</p>
+					<p className=''>
+						<strong>Recommended citation:</strong> {pub.citation}
+					</p>
+				</div>
+			))}
+
 			<h3>Conference Articles</h3>
 			<hr />
 
