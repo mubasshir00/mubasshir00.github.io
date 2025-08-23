@@ -28,10 +28,8 @@ const Publications = () => {
 					<p>
 						Published in <em>{pub.publisher}</em>, {pub.year}
 					</p>
-					<p>{pub.abstract}</p>
-					<p className=''>
-						<strong>Recommended citation:</strong> {pub.citation}
-					</p>
+					<p>{pub.abstract.substring(0, 300)} ... ... ... <a href={pub.paperLink ? pub.paperLink : ""}>see more</a></p>
+					
 				</div>
 			))}
 
@@ -46,10 +44,8 @@ const Publications = () => {
 					<p>
 						Published in <em>{pub.publisher}</em>, {pub.year}
 					</p>
-					<p>{pub.abstract}</p>
-					<p className=''>
-						<strong>Recommended citation:</strong> {pub.citation}
-					</p>
+					<p>{pub.abstract.substring(0, 300)} ... ... ... <a href={pub.paperLink ? pub.paperLink : ""}>see more</a></p>
+					
 				</div>
 			))}
 
@@ -64,10 +60,8 @@ const Publications = () => {
 					<p>
 						Published in <em>{pub.publisher}</em>, {pub.year}
 					</p>
-					<p>{pub.abstract}</p>
-					<p className=''>
-						<strong>Recommended citation:</strong> {pub.citation}
-					</p>
+					<p>{pub.abstract.substring(0, 300)} ... ... ... <a href={pub.paperLink ? pub.paperLink : ""}>see more</a></p>
+					
 				</div>
 			))}
 		</div>
