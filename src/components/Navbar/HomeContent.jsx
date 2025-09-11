@@ -5,45 +5,19 @@ const HomeContent = () => {
 		<main className='home-content'>
 			<h2>Hello, I'm Mubasshir Ahmed</h2>
 			<p>
-				I am a software engineer and
-				researcher from Dhaka, Bangladesh. I enjoy working with technology,
-				building real-world solutions, and learning new things every day.
+				I’m a software engineer and researcher passionate about cybersecurity, data privacy, blockchain, and machine learning. I’m currently working as a <b>Research Assistant</b> at the Institute for Advanced Research (IAR), United International University, where I focus on developing privacy-preserving systems using cryptography and blockchain to secure sensitive healthcare and insurance data.
 			</p>
 			<p>
-				Currently, I am working as a Software Engineer at ERI Ltd. I lead the
-				backend team for a system called RTIS, which is used by more than 90
-				factories across Bangladesh, India, Pakistan, and other countries. Along
-				with that, I have also worked on projects like an employee management
-				system and live streaming platforms. I love writing clean code and
-				solving difficult problems with smart solutions.
+				Professionally, I’ve had the opportunity to work on impactful projects across industries. At Engineering Resources International (ERI) Ltd., I led the backend development team for the Resources Tracking Information System (RTIS), a platform now used by over 90 factories and global clothing brands. I also spearheaded the development of an Employee Management System from the ground up. Alongside this, I co-founded Gaming Hub, a game streaming platform, and previously contributed to software development at Apprise IT, Vision Mash, and BDEMR Solutions Corp.
 			</p>
 			<p>
-				I am also doing research at the Institute for Advanced Research. My work
-				is focused on data privacy, cryptography, and using blockchain to
-				protect patient data in the healthcare system. I have published several
-				research papers in international conferences and journals. These topics
-				are very close to my heart because I believe technology should also help
-				people stay safe and secure.
+				I hold a B.Sc. in Computer Science and Engineering from North South University, where my thesis explored the use of homomorphic encryption for secure data storage. My research has led to several publications in international journals and conferences, covering areas such as fraud detection in health insurance systems, blockchain-based healthcare data management, and machine learning for hospital infrastructure.
 			</p>
 			<p>
-				In the past, I have worked with different startups and teams, building
-				web applications using technologies like Node.js, Express, React, and
-				MongoDB. I have experience in full-stack development, cloud services
-				like AWS, Docker, and also writing automated tests to make sure
-				everything works smoothly.
+				Beyond coding and research, I’ve enjoyed teaching as a lab instructor, where I delivered a cybersecurity program for IT professionals in banks and financial institutions. I also thrive in competitive environments — I was a Winner & Global Nominee of NASA Space Apps Challenge 2023, a Microsoft Imagine Cup finalist, and a multi-time hackathon runner-up.
 			</p>
 			<p>
-				Apart from work and research, I enjoy taking part in hackathons and tech
-				competitions. I was proud to be a winner and global nominee in the NASA
-				Space Apps Challenge 2023, and I have also been a finalist in other
-				events like Imagine Cup and HackNSU. These experiences taught me the
-				value of teamwork, time management, and thinking creatively under
-				pressure.
-			</p>
-			<p>
-				I am passionate about technology, especially in areas like
-				cybersecurity, machine learning, and blockchain. I believe in continuous
-				learning and always try to improve myself — one line of code at a time.
+				My technical toolkit spans backend and full-stack development, cloud technologies, DevOps, and modern cryptography. I’m deeply motivated to build secure, scalable, and future-ready technologies while continuing to explore areas like IoT, software engineering, and applied AI.
 			</p>
 			<p>
 				Thank you for visiting my website. Feel free to explore my work,
