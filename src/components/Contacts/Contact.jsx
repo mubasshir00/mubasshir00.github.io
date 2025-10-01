@@ -16,7 +16,7 @@ const Contact = () => {
 					</a>
 				</li>
 				<li>
-					<strong>Phone:</strong> +8801860959559
+					<strong>Phone:</strong> +61493358087
 				</li>
 				<li>
 					<strong>LinkedIn:</strong>{" "}
@@ -46,7 +46,7 @@ const Contact = () => {
 					</a>
 				</li>
 				<li>
-					<strong>Location:</strong> Dhaka, Bangladesh
+					<strong>Location:</strong> Sydney , NSW , Australia
 				</li>
 			</ul>
 		</section>
