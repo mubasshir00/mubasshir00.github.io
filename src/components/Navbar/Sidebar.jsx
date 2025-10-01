@@ -15,7 +15,7 @@ const Sidebar = () => {
 			<p>Software Engineer | Researcher</p>
 
 			<ul className='sidebar-links'>
-				<li>📍 Dhaka, Bangladesh</li>
+				<li>📍 Sydney , NSW , Australia</li>
 				<li>🎓 North South University</li>
 				<li>📧 mubasshirahmed66@gmail.com</li>
 				<li>
