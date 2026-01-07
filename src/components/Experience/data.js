@@ -16,7 +16,7 @@ export const experiences = [
 	{
 		role: "Software Engineer",
 		company: "Engineering Resources International (ERI) Ltd, Dhaka",
-		duration: "Feb 2023 – Present",
+		duration: "Feb 2023 – July 2025",
 		description: [
 			"Led the backend development team for the Resources Tracking Information System (RTIS) — a large-scale enterprise platform adopted by 90+ factories and multiple international clothing brands across Bangladesh, Pakistan, India, Denmark, the USA, Ireland, and China.",
 			"Designed and maintained scalable backend infrastructure to manage factory data, resource allocation, real-time reporting, and integrations with third-party systems. Collaborated closely with frontend developers, QA engineers, and business stakeholders to ensure robust feature delivery aligned with user needs. Oversaw technical architecture, database optimization, API design, and deployment workflows to support high-volume operations and cross-border usage.",
